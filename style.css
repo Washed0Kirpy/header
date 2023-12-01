@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: aliceblue;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    min-height: 130px;
+}
+.logo img{
+    margin: 5px;
+    padding: 5px;
+    width: 130px;
+    height: 130px;
+}
+.odkazy{
+    display: flex;
+    margin: 25px;
+    padding: 25px;
+    justify-content: end;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.odkazy a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
